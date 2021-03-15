@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <section>
+        <h1>Formulario de contacto</h1>
+        <P>Digite los campos obligatorios</P>
+
+
+        <form  method="POST" name="contacto" data-netlify="true">
+
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" required >
+
+            <label for="asunto"> Asunto: </label>
+            <input type="text" id="asunto" name="asunto" required>
+          
+            <label for="email"> Email:  </label>
+            <input type="email" id="email" name="email" required>
+
+            <br>
+            <br>
+
+            <label for="mensaje"> Digitar el mensaje a consultar</label><br>
+            <textarea name="mensaje" id="mensaje" cols="73" rows="10" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="guardar">
+
+
+
+
+        </form>
+
+    </section>
+</body>
+
+</html>
